@@ -1,0 +1,1 @@
+module.exports.foodTruckRoute = require('./foodtruck.route')

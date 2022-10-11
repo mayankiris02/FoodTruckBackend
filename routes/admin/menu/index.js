@@ -1,0 +1,1 @@
+module.exports.menuRoute = require('./menu.route')

@@ -1,0 +1,1 @@
+module.exports.adminRoute = require('./admin.route')

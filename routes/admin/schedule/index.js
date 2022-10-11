@@ -1,0 +1,1 @@
+module.exports.scheduleRoute = require('./schedule.route')
