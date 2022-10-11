@@ -15,8 +15,7 @@ function saveFoodTruckSchedule(req) {
             foodTruckId: item.foodTruckId
         }
     })
-    //dataParam.setHours(0, 0, 0, 0);
-
+    
     if (dataObj.length == 0) {
 
         return promisscheduleModel.findOneAndDelete({ year: currentYear, month: currentMonth });

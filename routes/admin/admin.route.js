@@ -11,10 +11,10 @@ router.use('/foodtruck', routefoodTruck.foodTruckRoute);
 //menu functionality
 router.use('/menu', routeMenu.menuRoute);
 
-//foodtruck functionality
+//schedule functionality
 router.use('/schedule', routeSchedule.scheduleRoute);
 
-//TO DO routes for admin other crud operation
+
 
 
 module.exports = router;
